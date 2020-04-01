@@ -1,0 +1,94 @@
+/**
+ * OBJECTIVE
+ * 
+ * Build a simple app based on this design:
+ * 
+ * https://tomis.tech/images/counter-design.png
+ * 
+ * Even though this is a simple app, we're looking for a "real world" approach,
+ * so please write your code in a way that's resilient against errors, avoids
+ * unnecessary code repition, is well-organized, and would be easy to modify
+ * in the future. We're less interested in "can you do this" and more
+ * interested in "how would you go about doing this".
+ * 
+ * If you have any questions about any of these instructions, please feel
+ * free to contact me any time at cole@tomis.tech. Asking questions is
+ * always a good thing!
+ * 
+ * There is no time limit, take as much time as you'd like.
+ * 
+ * 
+ * REQUIREMENTS
+ * 
+ * - You can use any npm package (using the 'Dependencies' menu on the left)
+ *
+ * - For styling, use the CSS-in-JS library of your choice (styled-components,
+ *   emotion, etc.) - but not plain CSS, inline styles, or CSS Modules
+ * 
+ * - Allow users to change the current "# of units" value in state by either:
+ *     a) using the +/- buttons
+ *     b) typing in a number in the field
+ * 
+ * - Make sure "# of units" is always a valid value (i.e. a positive integer)
+ *
+ * - "Cost per unit" does not need to be editable; you can just set it to 175.5
+ *   (but it should still be part of your state)
+ * 
+ * - Note that the "$175.50" value of "Cost Per Unit" shows two decimal places,
+ *   but the "$702" value of "Total Cost" doesn't show any. The currency
+ *   formatting rule here is: If the value is NOT an integer, show exactly two
+ *   decimal places; if it IS an integer, don't show any decimal places.
+ *
+ * - The "Total Cost" displayed should always be current & correct, based
+ *   on the current "# of units" and "cost per unit" values in state
+ * 
+ * - Design & layout requirements:
+ * 
+ *     - The main dark box that wraps the other components should expand to fill
+ *       the width of its parent element (but with a 40px margin on the left and
+ *       right). It should be vertically centered against the main light green
+ *       background.
+ * 
+ *     - The "Cost Per Unit" and "Total Cost" boxes should both have a
+ *       fixed width of 160px.
+ * 
+ *     - The "Cost Per Unit" box should always be on the far left
+ * 
+ *     - The "Total Cost" box should always be on the far right
+ * 
+ *     - The "# of Units" section should always be centered
+ * 
+ *     - The font in the design is Open Sans, but any sans-serif font is fine
+ * 
+ *     - Color and font size values are provided in index.js. You can see a
+ *       diagram of where they should be applied here:
+ *       https://tomis.tech/images/counter-design-style-info.png
+ * 
+ * 
+ * WHAT WE'RE LOOKING FOR
+ * 
+ * - Code that's bug-free, easy to read & understand, and easy to modify
+ * 
+ * - When it makes sense, create reusable components to avoid repitition
+ * 
+ * - Use of accessibility best practices
+ * 
+ * - Attention to detail - please make your implementation match the design
+ *   as closely as possible.
+ * 
+ * - We're not concerned about the specific file/folder structure here, but
+ *   each module should have a clear and intentional scope of responsibility.
+ * 
+ * 
+ * BONUS (optional)
+ * 
+ * If you're comfortable writing unit and/or integration tests, feel free to
+ * add a couple tests to the tests.js file. We won't actually run these tests,
+ * so you don't need to import any testing libraries.
+ * 
+ * You can decide what (if any) tests to write, and you can write them in the
+ * style of your favorite JS test framework - your choice.
+ * 
+ * Don't worry about writing too many tests, a couple examples will.
+ * 
+ */
